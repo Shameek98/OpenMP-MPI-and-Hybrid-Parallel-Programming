@@ -16,6 +16,6 @@ python gen_matrix.py 506 3 0 > vec_8_1_b.txt
 This will generate 2 matrices with 8x1 elements(2<sup>3</sup> rows and 2<sup>0</sup> columns). 406/506 are seed values for the 2 matrices.
 
 Steps:\
-"make serial(/omp/mpi) to compile the code"\
+"make serial(/omp/mpi)" to compile the code\
 "make gen_matrix" to generate test data.\
 "make run_serial(/omp/mpi)" to run the code.
